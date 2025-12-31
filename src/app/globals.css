@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+  --gold: #D4AF37;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  overflow: hidden; /* Prevent scrolling for the full-screen experience */
+  cursor: none; /* Hide cursor for a cleaner presentation, can be toggled if needed */
+}
+
+/* Cinematic Gradient Background Animation */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.cinematic-bg {
+  background: linear-gradient(-45deg, #000000, #000814, #001d3d, #000000);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Soft Glow for Text */
+.text-glow-gold {
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.5),
+               0 0 20px rgba(212, 175, 55, 0.3);
+}
+
+.text-glow-white {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+               0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+/* Heartbeat Pulse for Final Seconds */
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  5% { transform: scale(1.05); }
+  10% { transform: scale(1); }
+  15% { transform: scale(1.1); }
+  20% { transform: scale(1); }
+}
+
+.animate-heartbeat {
+  animation: heartbeat 1s ease-in-out infinite;
+}
+
+/* Reveal Animation */
+.reveal-text {
+  filter: blur(10px);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-text.show {
+  filter: blur(0);
+  opacity: 1;
+  transform: translateY(0);
+}

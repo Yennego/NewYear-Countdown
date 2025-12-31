@@ -1,0 +1,218 @@
+🎆 WATCHNIGHT 2025 – VISUAL & TECH PLAN
+Theme: “CROSSING OVER”
+
+From One Year Into Another by the Grace of God
+
+🧭 OVERALL GOAL
+
+To transform the New Year countdown from a simple timer into a spiritual, visual journey that:
+
+Prepares hearts
+
+Builds anticipation
+
+Honors the sacred moment of midnight
+
+Looks excellent on projector screens and livestream platforms (Facebook, YouTube, etc.)
+
+🕰️ PHASE 1 — WAITING ROOM (Before 11:00 PM)
+🎯 Purpose
+
+Create a calm, reflective atmosphere while waiting for the countdown window to begin.
+
+🎨 Visual Direction
+
+Slow animated gradient background (deep blue → black → subtle gold)
+
+Gentle floating particles (light, dust-like)
+
+Church logo watermark (low opacity, bottom-center)
+
+✝️ Scripture & Message Rotation (Updated)
+
+Displayed one at a time, fading softly:
+
+“Ebenezer — Thus far the Lord has helped us.”
+1 Samuel 7:12
+
+“The same God who brought you through this year will carry you into the next.”
+
+“Behold, I will do a new thing; now it shall spring forth.”
+Isaiah 43:19
+
+“We are standing on the threshold of a new season.”
+
+🛠 Tech Notes
+
+Framer Motion: fade + slight scale (1.02 → 1)
+
+Tailwind for typography consistency
+
+No sharp movements
+
+⏳ PHASE 2 — COUNTDOWN AWAKENING (11:00 PM – 11:55 PM)
+🎯 Purpose
+
+Shift attention from waiting to expectation.
+
+🎨 Visual Direction
+
+Countdown appears with smooth entrance
+
+Time units animate upward subtly
+
+Circular or radial progress indicator replaces flat bar
+
+🕒 Countdown Label Text (Updated)
+
+“Counting Down to a New Beginning”
+
+✨ Enhancements
+
+Numbers morph smoothly instead of snapping
+
+Minute changes trigger a soft glow pulse
+
+Background slightly brightens as midnight approaches
+
+🛠 Tech Notes
+
+Framer Motion layout animations
+
+SVG circular progress synced to seconds
+
+Tailwind gradients (gold accents introduced subtly)
+
+🔥 PHASE 3 — FINAL 60 SECONDS (THE SACRED MOMENT)
+🎯 Purpose
+
+This is the holiest moment — silence, prayer, expectation.
+
+🎨 Visual Direction
+
+Background darkens
+
+Countdown zooms slightly
+
+Soft pulse like a heartbeat
+
+⏱️ Prophetic Word Reveal (Updated)
+
+Each second briefly reveals a word behind the number:
+
+Second	Word
+10	FAITH
+9	HOPE
+8	GRACE
+7	MERCY
+6	FAVOR
+5	POWER
+4	JOY
+3	PEACE
+2	THANKSGIVING
+1	PRAISE
+
+No music. Let the congregation lead.
+
+🛠 Tech Notes
+
+GSAP Timeline (recommended here for precision)
+
+Framer Motion variants if GSAP is skipped
+
+Text opacity + blur reveal
+
+🎆 PHASE 4 — MIDNIGHT MOMENT (00:00:00)
+🎯 Purpose
+
+Celebrate the crossing-over moment with excellence and reverence.
+
+🎨 Visual Direction
+
+Screen flashes white → gold
+
+Fireworks burst (gold & white only)
+
+Light rays expanding outward
+
+🎉 Main Declaration (Updated)
+
+✨ WELCOME TO 2025 ✨
+A YEAR OF DIVINE ACCELERATION
+
+Subtext (optional):
+
+“What took years will happen in moments.”
+
+🛠 Tech Notes
+
+Canvas fireworks refactored for symbolic bursts
+
+Controlled color palette (no random neon)
+
+Short impact sound (if OBS/audio is available)
+
+🕊️ PHASE 5 — DECLARATION & PRAYER SCREEN (After Midnight)
+🎯 Purpose
+
+Serve as the backdrop for prayer, prophecy, and thanksgiving.
+
+🎨 Visual Direction
+
+Floating embers / light particles
+
+Very slow zoom-in effect
+
+Warm gold highlights
+
+📜 Declaration Text (Updated)
+
+This year, we advance.
+We build with wisdom.
+We walk in favor.
+We will testify — to the glory of God.
+
+Footer:
+
+“2025 — Our Year of Acceleration”
+
+🛠️ RECOMMENDED TECH STACK
+✅ Core
+
+Next.js (Local PC Run)
+
+React
+
+Tailwind CSS
+
+Framer Motion
+
+Canvas (Fireworks)
+
+🔥 Power Enhancements
+
+GSAP Timeline (final 60 seconds)
+
+Lottie (scripture & symbolic animations)
+
+OBS Studio for livestream capture
+
+🧠 FUTURE IMPROVEMENTS (OPTIONAL)
+
+Config file for:
+
+Theme text
+
+Colors
+
+Scriptures
+
+OBS-safe resolution lock
+
+Symbolic fireworks:
+
+✝️ Cross burst
+
+🕊️ Dove light trail
+
+⭐ Star expansion
